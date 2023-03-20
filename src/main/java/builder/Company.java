@@ -1,4 +1,4 @@
-package builderEntities;
+package builder;
 
 public class Company {
     private String name;

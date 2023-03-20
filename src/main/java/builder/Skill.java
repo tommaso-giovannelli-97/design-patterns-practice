@@ -1,4 +1,4 @@
-package builderEntities;
+package builder;
 
 public class Skill {
     private String name;

@@ -1,10 +1,12 @@
-import builderEntities.Company;
-import builderEntities.Employee;
-import builderEntities.Employee.EmployeeBuilder;
+package builder;
+
+import builder.Company;
+import builder.Employee;
+import builder.Employee.EmployeeBuilder;
 
 import java.util.Arrays;
 
-public class Main {
+public class BuilderMain {
     public static void main(String[] args) {
         Employee employee = directBuild(Employee.getBuilder());
         System.out.println(employee);
